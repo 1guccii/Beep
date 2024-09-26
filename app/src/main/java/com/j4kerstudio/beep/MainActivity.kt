@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.j4kerstudio.beep.presentation.component.NavBar
+import com.j4kerstudio.beep.presentation.screen.ConnectScreen
 import com.j4kerstudio.beep.presentation.screen.SplashScreen
 import com.j4kerstudio.beep.ui.theme.BeepTheme
 
@@ -20,8 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BeepTheme {
-                    SplashScreen()
-                }
+                    ConnectScreen()
             }
         }
     }

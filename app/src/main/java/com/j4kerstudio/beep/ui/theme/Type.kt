@@ -18,6 +18,12 @@ val Poppins = FontFamily(
 )
 
 val Typography = Typography(
+    displayLarge = TextStyle(
+        fontSize = 64.sp,
+        fontFamily = Poppins,
+        fontWeight = FontWeight(700),
+        color = Color(0xFF000000),
+    ),
     displaySmall = TextStyle(
         fontSize = 24.sp,
         fontFamily = Poppins,
@@ -78,5 +84,12 @@ val Typography = Typography(
         fontFamily = Poppins,
         fontWeight = FontWeight(700),
         color = Color(0xFF000000),
-    )
+    ),
+    displayMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 20.sp,
+        lineHeight = 16.sp,
+        letterSpacing = 0.5.sp
+    ),
 )
